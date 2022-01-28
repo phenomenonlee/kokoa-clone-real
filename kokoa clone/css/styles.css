@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components : 구성요소란 뜻 (상태창) */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/screen__header.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+  color: #2e363e;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: larger;
+  height: 500vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
